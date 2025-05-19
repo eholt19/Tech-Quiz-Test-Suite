@@ -1,0 +1,93 @@
+[
+    {
+      "question": "What does HTTP stand for?",
+      "answers": [
+        { "text": "HyperText Transfer Protocol", "isCorrect": true },
+        { "text": "HyperText Transmission Protocol", "isCorrect": false },
+        { "text": "HyperTool Transfer Protocol", "isCorrect": false },
+        { "text": "HyperText Transaction Protocol", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which tag is used to define an unordered list in HTML?",
+      "answers": [
+        { "text": "<ul>", "isCorrect": true },
+        { "text": "<ol>", "isCorrect": false },
+        { "text": "<li>", "isCorrect": false },
+        { "text": "<list>", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In CSS, which property is used to change the text color?",
+      "answers": [
+        { "text": "color", "isCorrect": true },
+        { "text": "font-color", "isCorrect": false },
+        { "text": "text-color", "isCorrect": false },
+        { "text": "font-style", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which element is used to embed JavaScript code in HTML?",
+      "answers": [
+        { "text": "<script>", "isCorrect": true },
+        { "text": "<js>", "isCorrect": false },
+        { "text": "<code>", "isCorrect": false },
+        { "text": "<javascript>", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does JSON stand for?",
+      "answers": [
+        { "text": "JavaScript Object Notation", "isCorrect": true },
+        { "text": "JavaScript Online Notation", "isCorrect": false },
+        { "text": "Java Standard Output Notation", "isCorrect": false },
+        { "text": "JavaScript Oriented Notation", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which company originally developed the Java programming language?",
+      "answers": [
+        { "text": "Sun Microsystems", "isCorrect": true },
+        { "text": "Microsoft", "isCorrect": false },
+        { "text": "Google", "isCorrect": false },
+        { "text": "IBM", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Git, which command is used to stage files for commit?",
+      "answers": [
+        { "text": "git add", "isCorrect": true },
+        { "text": "git commit", "isCorrect": false },
+        { "text": "git push", "isCorrect": false },
+        { "text": "git stage", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the value of `typeof []` in JavaScript?",
+      "answers": [
+        { "text": "object", "isCorrect": true },
+        { "text": "array", "isCorrect": false },
+        { "text": "function", "isCorrect": false },
+        { "text": "null", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which HTTP status code represents “Not Found”?",
+      "answers": [
+        { "text": "404", "isCorrect": true },
+        { "text": "200", "isCorrect": false },
+        { "text": "500", "isCorrect": false },
+        { "text": "301", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the correct syntax for an arrow function in JavaScript?",
+      "answers": [
+        { "text": "const fn = () => {}", "isCorrect": true },
+        { "text": "function fn() => {}", "isCorrect": false },
+        { "text": "fn => function() {}", "isCorrect": false },
+        { "text": "() function => {}", "isCorrect": false }
+      ]
+    }
+  ]
+  
