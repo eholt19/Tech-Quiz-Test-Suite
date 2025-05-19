@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Environment variables
+.env
+.env.*.local
+
+# OS files
+.DS_Store
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+
+# Misc caches
+.cache/
+.parcel-cache/
+*.tsbuildinfo
