@@ -1,15 +1,27 @@
 {
-    "extends": "../tsconfig.json",
-    "compilerOptions": {
-      "target": "ES2020",
-      "lib": ["ES2020", "DOM"],
-      "types": ["cypress", "node", "@testing-library/cypress"],
-      "isolatedModules": false,
-      "noEmit": true,
-      "composite": true,
-      "jsx": "react-jsx",
-      "strict": true
-    },
-    "include": ["**/*.tsx", "**/*.ts", "**/*.js", "**/*.jsx"]
-  }
-  
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "@testing-library/cypress"
+    ],
+    "isolatedModules": false,
+    "noEmit": true,
+    "composite": true,
+    "jsx": "react-jsx",
+    "strict": true
+  },
+  "include": [
+    "./**/*", // all your Cypress specs & support files
+    "../client/src/**/*.ts", // your app’s TS files
+    "../client/src/**/*.tsx", // your app’s TSX files
+    "../client/src/**/*.js", // in case you have any JS too
+    "../client/src/**/*.jsx" // and JSX
+  ]
+}
