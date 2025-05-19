@@ -12,6 +12,7 @@ A MERN stack Tech Quiz application with comprehensive Cypress tests for both com
 * [Installation](#installation)
 * [Usage](#usage)
 * [Testing](#testing)
+* [File Structure](#file-structure)
 * [Technologies](#technologies)
 * [Contributing](#contributing)
 * [Questions](#questions)
@@ -104,6 +105,30 @@ All tests are configured in Cypress. You can run tests via these scripts:
   ```
 
 Tests will execute headlessly and report pass/fail status for both component and E2E specs.
+
+---
+
+## File Structure
+
+```
+.
+├── client/               # React front end
+│   ├── src/              # Application source code
+│   ├── vite.config.ts    # Vite config for dev server
+│   └── ...
+├── server/               # Express & MongoDB API server
+│   ├── src/              # Server source code
+│   ├── dist/             # Compiled output
+│   ├── seeds/            # Database seeding scripts
+│   └── ...
+├── cypress/              # Cypress test specs & fixtures
+│   ├── component/        # Component tests for React components
+│   ├── e2e/              # End-to-end tests for application flow
+│   └── fixtures/         # Stub data (questions.json)
+├── cypress.config.ts     # Cypress configuration
+├── package.json          # Root npm scripts & dependencies
+└── README.md             # Project documentation
+```
 
 ---
 
