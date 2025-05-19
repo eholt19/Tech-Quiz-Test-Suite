@@ -17,7 +17,7 @@
     "render-build": "npm install && npm run build",
     "cypress": "npx cypress open",
     "cypress:run": "cypress run",
-    "test:e2e": "start-server-and-test dev http://localhost:3001 cypress:run",
+    "test:e2e": "start-server-and-test dev http://localhost:5173 cypress:run",
     "test:component": "cypress run --component",
     "test": "npm run test:e2e && npm run test:component"
   },

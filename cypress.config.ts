@@ -4,11 +4,9 @@ import customViteConfig from './vite.config';
 
 export default defineConfig({
   component: {
-    // host your component tests in the real app shell
-    indexHtmlFile: 'client/index.html',
-    // locate your component specs
+    // mount into our little Cypress‐only HTML shell
+    indexHtmlFile: 'cypress/support/component-index.html',
     specPattern: 'cypress/component/**/*.cy.{js,jsx,ts,tsx}',
-    // lightweight support file for component tests
     supportFile: 'cypress/support/component.ts',
     devServer: {
       framework: 'react',
@@ -18,11 +16,11 @@ export default defineConfig({
   },
 
   e2e: {
-    // locate your end-to-end specs
+    baseUrl: 'http://localhost:5173',
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
-    // point at the JS stub so Cypress can load it
     supportFile: 'cypress/support/e2e.js',
-    baseUrl: 'http://localhost:3001',
-    setupNodeEvents(on, config) {},
+    setupNodeEvents(on, config) {
+      // your hooks, if any
+    },
   },
 });
