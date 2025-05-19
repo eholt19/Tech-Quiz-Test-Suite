@@ -22,9 +22,7 @@ export default defineConfig({
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     // point at the JS stub so Cypress can load it
     supportFile: 'cypress/support/e2e.js',
-    baseUrl: 'http://localhost:5173',
-    setupNodeEvents(on, config) {
-      // your node event hooks, if any
-    },
+    baseUrl: 'http://localhost:3001',
+    setupNodeEvents(on, config) {},
   },
 });
