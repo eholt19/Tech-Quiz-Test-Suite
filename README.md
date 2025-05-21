@@ -30,9 +30,9 @@ This project is a Tech Quiz application built on the **MERN** stack (MongoDB, Ex
 
 A walkthrough video demonstrating the application functionality and test suites passing can be found here:
 
-[![Watch the Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+[Walkthrough Video (Google Drive)](https://drive.google.com/file/d/1CThNL7km_79nVp6jY5znUSmZxK0D9MEI/view?usp=sharing)
 
-*Replace `VIDEO_ID` with your actual YouTube video ID.*
+> **Note:** Due to starter code limitations, the quiz app may display a loading spinner in the browser. Per assignment instructions, the app code was not modified, as the primary focus is on implementing Cypress component and end-to-end tests. All required tests are demonstrated running and passing in the video above.
 
 ---
 
